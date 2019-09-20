@@ -1,0 +1,104 @@
+.top {
+	overflow: auto;
+}
+
+.top-nav {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 10;
+}
+
+.main-nav {
+	margin-left: 120px;
+}
+
+.main-nav li {
+	padding: 0 20px 0;
+	line-height: 77px;
+}
+
+.main-nav li:hover {
+	border-bottom: 3px solid #ccc;
+}
+
+.main-nav li:nth-child(4):hover {
+	border-bottom: 3px solid white;
+}
+
+.main-nav li:nth-child(4) {
+	font-family: "楷体";
+	font-size: large;
+	color: #FF2D52;
+	padding: 0 50px 0;
+}
+
+.top-lr {
+	position: relative;
+	left: 0;
+}
+
+.top-lr img {
+	height: 80px;
+	width: 80px;
+}
+
+.secondary-nav {
+    position: relative;
+    right: 0;
+    display: table;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.main-nav-r {
+	/*position: absolute;
+	top: 0px;
+	right: 0px;*/
+}
+
+.main-nav-r li {
+	float: left;
+	line-height: 80px;
+	height: 80px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.main-nav-r li:nth-child(1) {
+	width: 70px;
+}
+
+.main-nav-r li:nth-child(2) {
+	width: 50px;
+	background-color: #f9f9f9;
+}
+
+.main-nav-r li:nth-child(3) {
+	width: 80px;
+	background-color: #e9e8e9;
+}
+
+/*通用*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+.iblock {
+	display: inline-block;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
